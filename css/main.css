@@ -1,0 +1,212 @@
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    padding: 0px;
+    margin:0%;
+    background-color: orange;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.navbar li{
+    float: left;
+    display:flex;
+    
+    
+}
+
+
+.searchbutton input{
+    font-size:15px;
+    border: 1px solid green;
+    
+    width: 100%;
+    background-color: #bbc6e5;
+    
+ 
+}
+
+.searchbutton button {
+    width: 6%;
+    padding: 10px;
+
+    background-color: #04AA6D;
+}
+
+h1 {
+    background-color: rgb(85, 151, 208);
+    width: 40%;
+    margin-left: 30%;
+}
+
+h2 {
+    
+    color:orange;
+    text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+
+}
+
+
+
+main {
+    text-align:center;
+    color:rgb(255, 205, 106);
+    border: 10%;
+    text-shadow: 1.2px 1.2px black;
+
+}
+
+.main-p {
+    color: rgb(47, 58, 119);
+
+}
+
+.linkingfirst {
+    display: block; margin:0 auto;
+
+}
+
+body {
+    background-image: url(../images/city.png);
+    background-color: #6d87d7;
+    background-size: 100%;
+
+    cursor: cell;
+
+    /*box-shadow: 0px 4px 24px 16px black;*/
+   }
+
+footer {
+    border-style: solid double;
+    
+    background-color: aliceblue;
+}
+
+
+.container {
+    display:flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 151, 208);
+    width: 45%;
+    margin-left: 28%;
+    border: solid rgba(255, 42, 5, 0.695);
+}
+
+.fine-dining {
+    height:300px;
+    border-style: groove;
+
+}
+
+.uber {
+    height:300px;
+    border-style: groove;
+
+}
+
+.airport {
+    height:300px;
+    border-style: groove;
+
+
+}
+
+.background-box {
+    align-self: center;
+    background-color: blue;
+    background-size: 50%;
+    opacity: 50%;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1.2px 1.2px black;
+    
+
+}
+
+.contactinfo {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    justify-content: center;
+    /*background-color:rgb(165, 209, 253);*/
+    padding:100px;
+    margin-left: 38%;
+    margin-top: 10%;
+    width:200px;
+    
+    
+}
+
+.backgroundinfo {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    justify-content: center;
+    /*background-color:rgb(165, 209, 253);*/
+    margin-left: 45%;
+    margin-top: 15%;
+    width:200px;
+    color: rgb(97, 63, 0);
+    
+    
+}
+
+.overlay {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color:rgb(0, 103, 206);
+    height: 200px;
+    padding: 10%;
+    z-index: -1;
+    opacity: 70%;
+    margin-left: -1%;
+    margin-top:-3%
+    
+
+}
+
+.contactoverlay {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color:rgb(184, 184, 184);
+    height: 1px;
+    padding: 10%;
+    z-index: -1;
+    opacity: 86%;
+    margin-left: -2%;
+    margin-top: -14%;
+   
+}
+
+.bginfop {
+    color:rgb(255, 255, 255);
+    text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    font-size: 22px;
+}
+
+.contactp {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    color:rgb(248, 129, 17);
+    text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+    font-size: 22px;
+}
